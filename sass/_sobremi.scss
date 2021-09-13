@@ -1,0 +1,41 @@
+/* sobre mi */
+.bg--amarillo {
+    background-color: white;
+	.contenedor {
+		margin: 0 auto;
+		width: 90%;
+		max-width: 1200px;
+	}
+	
+
+.grid--container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 10px;
+    max-height: 600px;
+
+	.yoimg {
+		width: 500px;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	.grid--hijo {
+		background-color: white;
+			p:first-child {
+			padding: 50px 0px;
+			text-align: justify;
+			img {
+				max-height: 500px;
+				width: 500px;
+				padding: 30px 0px;
+			}
+	
+		}
+	}
+}
+}
+
+
+

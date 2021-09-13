@@ -1,0 +1,40 @@
+/* artistico */
+
+.distanciaSeccion {
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	height: 500px;
+	width: auto;
+
+
+}
+
+.distanciaVideo {
+    justify-content: center;
+	align-self: center;
+	width: 100% !important;
+}
+
+
+
+
+
+
+.galeriaArtistico {
+	display: flex;
+	background-color: #F2F4FF;
+	padding: 10px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+
+.galeriaArtistico img {
+	width: 300px;
+	height: auto;
+	border: 2px solid white;
+	margin: 10px;
+}

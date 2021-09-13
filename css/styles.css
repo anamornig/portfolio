@@ -1,0 +1,308 @@
+/* general */
+/* textos */
+p {
+  color: green;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-family: 'Georama', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+}
+
+h2 {
+  color: #7E8CFF;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+}
+
+text {
+  font-family: 'Georama', sans-serif;
+}
+
+li {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  width: auto;
+  background-color: #F2F4FF;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* menu */
+nav {
+  background-color: #000BDB;
+  height: auto;
+  position: relative;
+}
+
+.nav--menu {
+  color: white;
+  padding: 15px;
+  display: inline;
+}
+
+.nav--menu a {
+  color: white;
+}
+
+.nav--menuLista {
+  color: white;
+}
+
+.nav--menuLista li {
+  float: left;
+  text-align: center;
+}
+
+.nav--menuLista li a {
+  padding: 10px;
+  text-decoration: none;
+  min-width: 100px;
+  display: block;
+}
+
+.nav--menuLista li a :hover {
+  color: black;
+  background-color: #eaeaea;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.nav--titulo-principal a {
+  color: white;
+  text-decoration: none;
+}
+
+/*footer*/
+.footer--div {
+  padding: 1rem;
+  margin: 1px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#E6FFF0));
+  background-image: linear-gradient(white, #E6FFF0);
+  text-align: center;
+  height: 150px;
+  width: auto;
+  text-decoration: none;
+  -webkit-text-decoration-color: #7E8CFF;
+          text-decoration-color: #7E8CFF;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer--redes {
+  color: #7E8CFF;
+}
+
+.footer--copyright {
+  color: #7E8CFF;
+  font-weight: 500;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  .menu a {
+    width: 50%;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .titulo-principal a {
+    float: none;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imgPrincipal {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #biografia {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .yoimg {
+    float: none;
+    width: 50%;
+  }
+}
+
+/* paginas */
+/* pagina principal */
+.imgPrincipal {
+  padding: 10px;
+  margin: auto;
+  border: 1px solid white;
+  width: 800px;
+  height: auto;
+  display: block;
+}
+
+/* artistico */
+.distanciaSeccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  width: auto;
+}
+
+.distanciaVideo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100% !important;
+}
+
+.galeriaArtistico {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F2F4FF;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.galeriaArtistico img {
+  width: 300px;
+  height: auto;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+/* comercial */
+.galeriaComercial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F2F4FF;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.galeriaComercial--img {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+/* contacto */
+form {
+  -webkit-text-decoration: black;
+          text-decoration: black;
+  border: 1px solid white;
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  float: center;
+}
+
+form input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* sobre mi */
+.bg--amarillo {
+  background-color: white;
+}
+
+.bg--amarillo .contenedor {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.bg--amarillo .grid--container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  max-height: 600px;
+}
+
+.bg--amarillo .grid--container .yoimg {
+  width: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg--amarillo .grid--container .grid--hijo {
+  background-color: white;
+}
+
+.bg--amarillo .grid--container .grid--hijo p:first-child {
+  padding: 50px 0px;
+  text-align: justify;
+}
+
+.bg--amarillo .grid--container .grid--hijo p:first-child img {
+  max-height: 500px;
+  width: 500px;
+  padding: 30px 0px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,47 @@
+    /* menu */
+
+
+
+    nav {
+        background-color: #000BDB;
+        height: auto;	
+        position: relative;
+    }
+    
+    .nav--menu {
+        color: white;
+        padding: 15px;
+        display: inline;
+            a {
+            color: white;
+            }
+    }
+    
+    
+    .nav--menuLista {
+        color: white;
+        li
+            {
+        float: left;
+        text-align:center;
+            a{
+        padding: 10px;
+        text-decoration: none;
+        min-width: 100px;
+        display: block;
+                :hover{
+                color: black;
+                background-color: #eaeaea;
+                transform: scale(1.2,1.2) ;
+                }
+            }
+        }
+    }
+    
+    
+    .nav--titulo-principal a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    

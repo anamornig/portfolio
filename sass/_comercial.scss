@@ -1,0 +1,19 @@
+/* comercial */
+
+.galeriaComercial {
+	display: flex;
+	background-color: #F2F4FF;
+	padding: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+	
+}
+
+.galeriaComercial--img {
+	width: 300px;
+	height: auto;
+	margin: 10px;
+	border: 2px solid white;
+}

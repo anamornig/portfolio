@@ -1,0 +1,33 @@
+/* responsive */
+
+@media screen and (max-width: 600px) {
+	.menu a {
+
+		width: 50%;
+		display: inline;
+	} }
+	
+@media screen and (max-width: 600px) {
+		.titulo-principal a{
+			float: none;
+			width: 50%;
+		} }
+		
+
+@media screen and (max-width: 600px) {
+		.imgPrincipal {
+			float: none;
+			width: 100%;
+} }
+@media screen and (max-width: 600px) {
+	#biografia {
+		float: none;
+		width: 100%;
+	} }
+
+	@media screen and (max-width: 600px) {
+		.yoimg {
+			float: none;
+			width: 50%;
+		} }
+
