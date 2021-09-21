@@ -209,6 +209,13 @@ a {
   border: 2px solid #E6FFF0;
 }
 
+.galeriaDefe {
+  width: 600px;
+  height: auto;
+  margin: 10px;
+  border: 2px solid #E6FFF0;
+}
+
 /* contacto */
 form {
   -webkit-text-decoration: black;
