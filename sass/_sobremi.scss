@@ -1,4 +1,6 @@
 /* sobre mi */
+/*
+
 .bg--amarillo {
     background-color: white;
 	.contenedor {
@@ -38,5 +40,23 @@
 }
 }
 
+*/
 
+.flex--padre {
+	display: flex;
+	height: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
 
+.yoImg {
+	max-width: 250px !important;
+	align-items: center;
+}
+
+.flex--hijo {
+	background-color: white;
+	width: 350px;
+}

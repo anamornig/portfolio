@@ -1,12 +1,8 @@
     /* menu */
 
+/*
 
 
-    nav {
-        background-color: #000BDB;
-        height: auto;	
-        position: relative;
-    }
     
     .nav--menu {
         color: white;
@@ -37,11 +33,28 @@
             }
         }
     }
-    
+      */
     
     .nav--titulo-principal a {
-        color: white;
+        color: #7E8CFF;
         text-decoration: none;
     }
     
-    
+.headerEdit{
+    background-image: linear-gradient(#E6FFF0, white );
+    position: relative;
+}    
+
+
+
+.nav-linkEdit {
+    text-decoration: none;
+    text-shadow: white 1px;
+    color: black;
+}
+
+.navX {
+    background-image: linear-gradient(#E6FFF0, white );
+    height: auto;	
+    position: relative;
+}
