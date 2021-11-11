@@ -16,6 +16,10 @@
     <meta name="description" content="Contactate con la fotógrafa Ana Moruja">
     <meta name="keywords" content="portfolio, fotografía, canon, arte, fotografía artística, fotógrafa, fotógrafo, photography, cinematography, artwork"> 
     
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="/contacto.js"></script>
+
     <title>Contacto</title>
 
 
@@ -52,30 +56,36 @@
     <h2>Contacto</h2>
 <form data-aos="fade-up">
     <fieldset>
-                <div>
+        <form id='contactForm' method="post" name="myemailform" action="form-to-email.php">
+            <div>
                 <label for="name">Nombre</label>
-                <input id="name" type="text" placeholder="ingrese su nombre">
+                <input id="name" type="text" name="nombre" placeholder="Ingrese su nombre">
             </div>       
 
             <div>
                 <label for="email">Email</label>
-                <input id="email" type="email">
+                <input id="email" type="email" name="email" placeholder="Ingrese su correo.">
             </div>
                 
+            <div>
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Breve descripción del mensaje">
+            </div>
             <div>
                 <label for="consulta">Consulta</label>
                 <input type="text" name="consulta" width="100px" height="auto" >
             </div>
-                
-            <div>
+
+
+            <!-- <div>
                 <label for="newsletter">¿Desea recibir el newsletter?</label>
                 <input type="checkbox" name="newsletter" value="si">
-            </div>
-
+            </div> -->
             <div>
                 <input type="submit" value="Enviar ahora">
                 <input type="reset" name="" id="" value="Limpiar">
             </div>
+        </form>
     </fieldset>
 </form>
 </section>

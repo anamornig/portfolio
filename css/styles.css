@@ -295,3 +295,43 @@ form input {
   width: 350px;
 }
 /*# sourceMappingURL=styles.css.map */
+
+
+
+
+
+
+#contactForm #comprueba {
+	margin: 10px 0;
+	float: left;
+}
+#contactForm #comprueba p {
+	display: inline-block;
+	color: #333;
+	margin: 0;
+}
+#contactForm #comprueba #n1, #contactForm #comprueba #n2 {
+	display: inline-block;
+	width: 20px !important;
+	border: none !important;
+	padding: 0 !important;
+	margin: 0;
+	text-align: center;
+}
+#contactForm #comprueba #n1:focus, #contactForm #comprueba #n2:focus {
+	box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#contactForm #comprueba #res {
+	display: inline-block;
+	width: 25px;
+	padding: 2px;
+}
+#contactForm #comprueba #res:focus {
+	box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+}
