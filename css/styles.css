@@ -13,7 +13,6 @@ h1 {
   font-size: 30px;
 }
 
-
 h2 {
   color: #7E8CFF;
   text-align: center;
@@ -43,7 +42,40 @@ a {
 }
 
 /* menu */
+/*
 
+
+    
+    .nav--menu {
+        color: white;
+        padding: 15px;
+        display: inline;
+            a {
+            color: white;
+            }
+    }
+    
+    
+    .nav--menuLista {
+        color: white;
+        li
+            {
+        float: left;
+        text-align:center;
+            a{
+        padding: 10px;
+        text-decoration: none;
+        min-width: 100px;
+        display: block;
+                :hover{
+                color: black;
+                background-color: #eaeaea;
+                transform: scale(1.2,1.2) ;
+                }
+            }
+        }
+    }
+      */
 .nav--titulo-principal a {
   color: #7E8CFF;
   text-decoration: none;
@@ -221,6 +253,48 @@ form input {
   margin-bottom: 20px;
 }
 
+#contactForm #comprueba {
+  margin: 10px 0;
+  float: left;
+}
+
+#contactForm #comprueba p {
+  display: inline-block;
+  color: #333;
+  margin: 0;
+}
+
+#contactForm #comprueba #n1, #contactForm #comprueba #n2 {
+  display: inline-block;
+  width: 20px !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0;
+  text-align: center;
+}
+
+#contactForm #comprueba #n1:focus, #contactForm #comprueba #n2:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+#contactForm #comprueba #res {
+  display: inline-block;
+  width: 25px;
+  padding: 2px;
+}
+
+#contactForm #comprueba #res:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
 /* sobre mi */
 /*
 
@@ -294,44 +368,30 @@ form input {
   background-color: white;
   width: 350px;
 }
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
 /*# sourceMappingURL=styles.css.map */
-
-
-
-
-
-
-#contactForm #comprueba {
-	margin: 10px 0;
-	float: left;
-}
-#contactForm #comprueba p {
-	display: inline-block;
-	color: #333;
-	margin: 0;
-}
-#contactForm #comprueba #n1, #contactForm #comprueba #n2 {
-	display: inline-block;
-	width: 20px !important;
-	border: none !important;
-	padding: 0 !important;
-	margin: 0;
-	text-align: center;
-}
-#contactForm #comprueba #n1:focus, #contactForm #comprueba #n2:focus {
-	box-shadow: none;
-	-o-box-shadow: none;
-	-ms-box-shadow: none;
-	-moz-box-shadow: none;
-}
-#contactForm #comprueba #res {
-	display: inline-block;
-	width: 25px;
-	padding: 2px;
-}
-#contactForm #comprueba #res:focus {
-	box-shadow: none;
-	-o-box-shadow: none;
-	-ms-box-shadow: none;
-	-moz-box-shadow: none;
-}

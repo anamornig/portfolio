@@ -1,0 +1,17 @@
+.contacto-int {
+    color: black;
+    text-align: center;
+    background-color: white;
+    display: flex;
+   flex-direction: column;
+margin-top: 50px;
+margin-bottom: 150px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  .yoimg{
+      max-width: 100%;
+  }
